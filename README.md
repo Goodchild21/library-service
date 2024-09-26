@@ -19,11 +19,12 @@
 5. `GET /books`: List all books
 
 
-## Tech Stack, Frameworks & Authentication
+## Tech Stack & Frameworks
 
 - Python with FastAPI framework
 - PostgreSQL database with Alembic migration for database schema and management
 - Docker for containerization with Docker Compose for multiple containers
+- Redis for caching implementation to improve reading performance
 
 
 ## How to run
